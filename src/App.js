@@ -5,7 +5,7 @@ import Works from "./components/Works";
 
 function App() {
   return (
-    <div className="App flex flex-col justify-center items-center">
+    <div className="App bg-background font-poppins text-main">
       <Header />
       <Works />
       <About />

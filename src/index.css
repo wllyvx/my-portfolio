@@ -4,5 +4,39 @@
 
 body {
   background-color: #f4f2e6;
-  color: #1A1D16;
+  color: #1a1d16;
+}
+header {
+  background-image: url(../public/img/blob/blob-1.png),
+    url(../public/img/blob/blob-2.png);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+}
+
+#background1 {
+  background: #f4a261;
+}
+
+#background2 {
+  background: #2a9d8f;
+}
+
+#background3 {
+  background: #e76f51;
+}
+
+#loopstudio {
+  background: #cc66cc;
+  color: black;
+}
+
+#fylo {
+  background: #2a374c;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-size: contain;
+  }
 }
