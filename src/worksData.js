@@ -6,6 +6,8 @@ const worksData = [
     site: "https://wllyvx.github.io/devchallanges-interior-consultant/",
     background: "background1",
     date: "December 2021",
+    lang: ["HTML", "CSS", "Javascript"],
+    framework: ["-"],
   },
   {
     id: "2",
@@ -14,6 +16,8 @@ const worksData = [
     site: "https://wllyvx.github.io/sunnyside-agency-landing-page/",
     background: "background2",
     date: "December 2021",
+    lang: ["HTML", "CSS", "Javascript"],
+    framework: ["TailwindCSS"],
   },
   {
     id: "3",
@@ -22,6 +26,8 @@ const worksData = [
     site: "https://wllyvx.github.io/frontendmentor-huddle-feature-block/",
     background: "background3",
     date: "January 2022",
+    lang: ["HTML", "CSS"],
+    framework: ["-"],
   },
   {
     id: "4",
@@ -30,6 +36,8 @@ const worksData = [
     site: "https://wllyvx.github.io/frontendmentor-loopstudio/",
     background: "loopstudio",
     date: "July 2022",
+    lang: ["HTML", "CSS", "Javascript"],
+    framework: ["ReactJS", "TailwindCSS"],
   },
   {
     id: "5",
@@ -38,6 +46,8 @@ const worksData = [
     site: "https://frontendmentor-fylo-dark-theme.vercel.app/",
     background: "fylo",
     date: "September 2022",
+    lang: ["HTML", "CSS"],
+    framework: ["ReactJS", "TailwindCSS"],
   },
 ];
 
