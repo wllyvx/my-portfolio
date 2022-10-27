@@ -18,21 +18,26 @@ function WorksItems(props) {
               {props.title}
             </a>
             <p className="text-[16px] leading-[26px] tracking-[0.6px] opacity-60 md:text-[30px] md:leading-[50px]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Asperiores architecto, impedit porro eveniet eius, culpa
-              cupiditate expedita corporis consequatur saepe accusamus aperiam
-              id corrupti unde rerum similique illo rem quidem consectetur
-              laboriosam doloribus tempore quos nobis qui. Expedita, at quo
-              magnam nulla ducimus fugit pariatur accusantium perspiciatis?
-              Quaerat, nam nulla.
+              {props.desc}
             </p>
           </div>
-          <div className="text-[16px] leading-[28px]">
-            <h4 className="font-[600]">Language</h4>
-            <ul className="opacity-60">
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
+          <div className="space-y-8">
+            <div className="text-[16px] leading-[28px]">
+              <h4 className="font-[600]">Language</h4>
+              <ul className="opacity-60">
+                {props.lang.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="text-[16px] leading-[28px]">
+              <h4 className="font-[600]">Framework</h4>
+              <ul className="opacity-60">
+                {props.framework.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

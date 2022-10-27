@@ -25,6 +25,15 @@ header {
   background: #e76f51;
 }
 
+#interior-consultant {
+  background: black;
+  color: white;
+}
+
+#sunnyside {
+  background: #ffcc66;
+}
+
 #loopstudio {
   background: #cc66cc;
   color: black;
