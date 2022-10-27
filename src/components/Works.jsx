@@ -11,6 +11,7 @@ function Works() {
             key={item.id}
             img={item.img}
             title={item.title}
+            desc={item.desc}
             site={item.site}
             background={item.background}
             date={item.date}

@@ -18,13 +18,7 @@ function WorksItems(props) {
               {props.title}
             </a>
             <p className="text-[16px] leading-[26px] tracking-[0.6px] opacity-60 md:text-[30px] md:leading-[50px]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Asperiores architecto, impedit porro eveniet eius, culpa
-              cupiditate expedita corporis consequatur saepe accusamus aperiam
-              id corrupti unde rerum similique illo rem quidem consectetur
-              laboriosam doloribus tempore quos nobis qui. Expedita, at quo
-              magnam nulla ducimus fugit pariatur accusantium perspiciatis?
-              Quaerat, nam nulla.
+              {props.desc}
             </p>
           </div>
           <div className="space-y-8">
