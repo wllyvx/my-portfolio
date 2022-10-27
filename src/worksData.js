@@ -43,7 +43,6 @@ const worksData = [
     id: "5",
     img: "fylo.png",
     title: "Fylo Dark Theme",
-    desc: "This is a solution to the <a href='https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n'>Fylo data storage component challenge on Frontend Mentor<a/>",
     site: "https://frontendmentor-fylo-dark-theme.vercel.app/",
     background: "fylo",
     date: "September 2022",
