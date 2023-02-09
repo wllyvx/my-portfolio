@@ -1,13 +1,17 @@
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import { Poppins } from '@next/font/google'
 import styles from './page.module.css'
+import Header from '@/components/Header'
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({ 
+  subsets: ['latin'],
+  weight: ['400','700'] 
+})
 
 export default function Home() {
   return (
-    <div>
-      <h1 className='text-3xl text-pink-600'>Hello World</h1>
-    </div>
+    <main className='bg-background text-main'>
+      <Header />
+    </main>
   )
 }
