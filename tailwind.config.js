@@ -1,25 +1,28 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
         background: "#E9C46A",
         main: "#264653",
         type: "#1A1D16",
+        'sunnyside': '#ffcc66',
       },
-      fontFamily: {
-        dm: ["DM Serif Display", "Sans Serif"],
-        poppins: ["Poppins", "Sans Serif"],
+      backgroundColor: {
+        'background1': '#f4a261',
       },
-      borderRadius: {
-        handdrawn: "255px 15px 225px 15px/15px 225px 15px 255px",
-        "handdrawn-inv": "15px 225px 15px 255px/255px 15px 225px 15px",
+      backgroundImage: {
+        'header-pattern': `url(/img/blob/blob-1.png), url(/img/blob/blob-2.png)`,
       },
-      boxShadow: {
-        bold: "4px 3px 0px 4px rgba(0,0,0,1)",
-      },
+      backgroundPosition: {
+        'header-position': `left top, right top`
+      }
     },
   },
   plugins: [],
-};
+}
