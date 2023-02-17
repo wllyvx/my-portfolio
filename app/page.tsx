@@ -1,12 +1,14 @@
 import Header from '@/components/Header'
 import Featured from '@/components/Featured'
+import Footer from '@/components/Footer'
 
 
 export default function Home() {
   return (
-    <main className='bg-background text-main'>
+    <>
       <Header />
       <Featured />
-    </main>
+      <Footer />
+    </>
   )
 }

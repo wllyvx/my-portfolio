@@ -20,7 +20,9 @@ export default function RootLayout({
       */}
       <head />
       <body className={poppins.className}>
-        {children}
+        <main className='bg-background text-main'>
+          {children}
+        </main>
       </body>
     </html>
   )
