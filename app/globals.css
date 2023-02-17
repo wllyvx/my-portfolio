@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#background1 {
+    background: #f4a261;
+  }
+  
+  #background2 {
+    background: #2a9d8f;
+  }
+  
+  #background3 {
+    background: #e76f51;
+  }
+  
+  #interior-consultant {
+    background: black;
+    color: white;
+  }
+  
+  #sunnyside {
+    background: #ffcc66;
+  }
+  
+  #loopstudio {
+    background: #cc66cc;
+    color: black;
+  }
+  
+  #fylo {
+    background: #2a374c;
+    color: white;
+  }
+
+  #huddle {
+    background: #2a374c;
+    color: white;
+  }

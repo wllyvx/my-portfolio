@@ -11,6 +11,10 @@ module.exports = {
         background: "#E9C46A",
         main: "#264653",
         type: "#1A1D16",
+        'sunnyside': '#ffcc66',
+      },
+      backgroundColor: {
+        'background1': '#f4a261',
       },
       backgroundImage: {
         'header-pattern': `url(/img/blob/blob-1.png), url(/img/blob/blob-2.png)`,
