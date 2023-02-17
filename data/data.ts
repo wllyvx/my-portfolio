@@ -1,0 +1,56 @@
+const data = {
+  works: [
+    {
+      id: "1",
+      img: "interior-consultant.png",
+      title: "Interior Consultant Page",
+      site: "https://wllyvx.github.io/devchallanges-interior-consultant/",
+      background: "interior-consultant",
+      date: "December 2021",
+      lang: ["HTML", "CSS", "Javascript"],
+      framework: ["-"],
+    },
+    {
+      id: "2",
+      img: "sunnyside.png",
+      title: "Sunnyside Agency Landing Page",
+      site: "https://wllyvx.github.io/sunnyside-agency-landing-page/",
+      background: "sunnyside",
+      date: "December 2021",
+      lang: ["HTML", "CSS", "Javascript"],
+      framework: ["TailwindCSS"],
+    },
+    {
+      id: "3",
+      img: "huddle-feature.png",
+      title: "Huddle Feature Landing Page",
+      site: "https://wllyvx.github.io/frontendmentor-huddle-feature-block/",
+      background: "background3",
+      date: "January 2022",
+      lang: ["HTML", "CSS"],
+      framework: ["-"],
+    },
+    {
+      id: "4",
+      img: "loopstudio.png",
+      title: "Loopstudio Landing Page",
+      site: "https://wllyvx.github.io/frontendmentor-loopstudio/",
+      background: "loopstudio",
+      date: "July 2022",
+      lang: ["HTML", "CSS", "Javascript"],
+      framework: ["ReactJS", "TailwindCSS"],
+    },
+    {
+      id: "5",
+      img: "fylo.png",
+      title: "Fylo Dark Theme",
+      site: "https://frontendmentor-fylo-dark-theme.vercel.app/",
+      background: "fylo",
+      date: "September 2022",
+      lang: ["HTML", "CSS"],
+      framework: ["ReactJS", "TailwindCSS"],
+    },
+  ],
+};
+
+export default data;
