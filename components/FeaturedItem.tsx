@@ -27,7 +27,7 @@ export default function FeaturedItem({ item }: itemProps) {
     <m.div
       id={item.background}
       className={`bg-${item.background} flex flex-col pb-[20px] text-left md:pb-[50px]`}
-      initial={{y: "35%"}}
+      initial={{y: "100%"}}
       animate={{y: "0%"}}
       transition={{duration: 1, ease: "easeOut"}}
     >
