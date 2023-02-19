@@ -8,13 +8,13 @@ export default function Footer() {
                 <p className="text-sm opacity-50">See me online at:</p>
             </div>
             <div className="flex gap-4">
-                <a href="https://github.com/wllyvx" target="_blank">
+                <a href="https://github.com/wllyvx" target="_blank" rel="noreferrer">
                     <Github className="opacity-50 hover:opacity-100 cursor-pointer"/>
                 </a>
-                <a href="https://twitter.com/willyframadhan" target="_blank">
+                <a href="https://twitter.com/willyframadhan" target="_blank" rel="noreferrer">
                     <Twitter className="opacity-50 hover:opacity-100 cursor-pointer"/>
                 </a>
-                <a href="https://instagram.com/willyframadhan" target="_blank">
+                <a href="https://instagram.com/willyframadhan" target="_blank" rel="noreferrer">
                     <Instagram className="opacity-50 hover:opacity-100 cursor-pointer"/>
                 </a>
             </div>
