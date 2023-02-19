@@ -20,10 +20,6 @@ interface itemProps {
 }
 
 export default function FeaturedItem({ item }: itemProps) {
-
-  const colorVariants = {
-    sunnyside: 'bg-[#ffcc66]'
-  }
     
   return (
     <div
