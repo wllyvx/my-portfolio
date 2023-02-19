@@ -1,6 +1,8 @@
+"use client"
 import Image from "next/image";
 import { Button } from "./ui/Button";
 import { ExternalLink, Github } from "lucide-react";
+import { motion as m } from "framer-motion";
 
 interface Item {
   id: string;
@@ -22,9 +24,12 @@ interface itemProps {
 export default function FeaturedItem({ item }: itemProps) {
     
   return (
-    <div
+    <m.div
       id={item.background}
       className={`bg-${item.background} flex flex-col pb-[20px] text-left md:pb-[50px]`}
+      initial={{y: "35%"}}
+      animate={{y: "0%"}}
+      transition={{duration: 1, ease: "easeOut"}}
     >
       <div className="max-w-[1140px] space-y-8 px-[20px] pt-[50px] pb-[30px] md:m-auto md:space-y-0 md:pt-[150px]">
         <p className="pb-10 opacity-50">{item.date}</p>
@@ -72,6 +77,6 @@ export default function FeaturedItem({ item }: itemProps) {
       <div className="m-auto max-w-[1100px] p-[20px] md:p-0">
         <Image src={`/img/works/${item.img}`} height={1100} width={1100} alt="project image" className="w-full" />
       </div>
-    </div>
+    </m.div>
   );
 }
