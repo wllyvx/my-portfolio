@@ -18,8 +18,9 @@ export default function Footer() {
                     <Instagram className="opacity-50 hover:opacity-100 cursor-pointer"/>
                 </a>
             </div>
-            <div className="w-full flex justify-center">
+            <div className="w-full flex flex-col items-center">
                 <p className="text-sm">Made with ❣️ by Willy</p>
+                <p className="text-sm">The source code of this site is available <a href="https://github.com/wllyvx/my-portfolio" target="_blank" rel="noreferrer" className="text-background hover:underline">here</a></p>
             </div>
         </footer>
     )
