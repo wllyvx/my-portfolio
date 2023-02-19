@@ -68,7 +68,7 @@ const data = {
       source: "https://github.com/wllyvx/news-homepage",
       background: "news-homepage",
       date: "January 2023",
-      lang: ["HTML", "CSS", "Javascript"],
+      lang: ["HTML", "CSS", "Typecript"],
       framework: ["Next JS", "TailwindCSS"],
       desc: "-"
     },
