@@ -60,6 +60,18 @@ const data = {
       framework: ["ReactJS", "TailwindCSS"],
       desc: "-"
     },
+    {
+      id: "6",
+      img: "news-homepage.png",
+      title: "News Homepage",
+      site: "https://news-homepage-mocha.vercel.app/",
+      source: "https://github.com/wllyvx/news-homepage",
+      background: "news-homepage",
+      date: "January 2023",
+      lang: ["HTML", "CSS", "Javascript"],
+      framework: ["Next JS", "TailwindCSS"],
+      desc: "-"
+    },
   ],
 };
 

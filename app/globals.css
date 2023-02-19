@@ -22,6 +22,11 @@
   #sunnyside {
     background: #ffcc66;
   }
+
+  #huddle {
+    background: #2a374c;
+    color: white;
+  }
   
   #loopstudio {
     background: #cc66cc;
@@ -33,7 +38,7 @@
     color: white;
   }
 
-  #huddle {
-    background: #2a374c;
-    color: white;
+  #news-homepage {
+    background: #00001A;
+    color: #E9AB53;
   }
